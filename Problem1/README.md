@@ -18,7 +18,7 @@ You are given a table called Sales that contains data about sales transactions. 
 
 You need to write a query to find the total sales amount for each product in the month of June 2023.
 
-## Problem Statement
+### Problem Statement
 Write a SQL query to find the total sales amount for each product in the month of June 2023.
 
 ## Problem 2: Customer Purchase Frequency
@@ -31,7 +31,7 @@ You have another table called Customers that contains data about customers. The 
 
 The Sales table from the previous problem remains the same.
 
-## Problem Statement
+### Problem Statement
 
 Write a SQL query to find the number of purchases made by each customer in the year 2023.
 
@@ -39,7 +39,7 @@ Write a SQL query to find the number of purchases made by each customer in the y
 
 Now, you need to analyze the monthly sales trend for the year 2023. The structure of the Sales table remains the same.
 
-## Problem Statement
+### Problem Statement
 
 Write a SQL query to find the total sales amount for each month in the year 2023. The result should include the month and the total sales amount.
 
@@ -47,7 +47,7 @@ Write a SQL query to find the total sales amount for each month in the year 2023
 
 You need to identify the top 5 customers based on the total sales amount they have generated in the year 2023. The structure of the Sales and Customers tables remains the same.
 
-## Problem Statement
+### Problem Statement
 
 Write a SQL query to find the top 5 customers by total sales amount in the year 2023.
 
