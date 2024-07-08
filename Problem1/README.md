@@ -1,1 +1,34 @@
+---
+title: "SQL Problem Solving"
+author: "ChatGPT"
+date: "2024-07-08"
+output: html_document
+---
+
+# Problem 1: Sales Analysis
+
+You are given a table called Sales that contains data about sales transactions. The structure of the table is as follows:
+
+- `TransactionID` (INT) - Unique identifier for each transaction
+- `CustomerID` (INT) - Unique identifier for each customer
+- `ProductID` (INT) - Unique identifier for each product
+- `Quantity` (INT) - Number of units sold
+- `Price` (DECIMAL) - Price per unit
+- `TransactionDate` (DATE) - Date of the transaction
+
+You need to write a query to find the total sales amount for each product in the month of June 2023.
+
+## Problem Statement
+Write a SQL query to find the total sales amount for each product in the month of June 2023.
+
+```sql
+SELECT 
+    ProductID, 
+    SUM(Quantity * Price) AS TotalSalesAmount
+FROM 
+    Sales
+WHERE 
+    TransactionDate BETWEEN '2023-06-01' AND '2023-06-30'
+GROUP BY 
+    ProductID;
 
