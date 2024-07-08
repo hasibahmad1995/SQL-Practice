@@ -1,10 +1,3 @@
----
-title: "SQL Problem Solving"
-author: "ChatGPT"
-date: "2024-07-08"
-output: html_document
----
-
 # Problem 1: Sales Analysis
 
 You are given a table called Sales that contains data about sales transactions. The structure of the table is as follows:
