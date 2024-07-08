@@ -44,6 +44,7 @@ You need to identify the top 5 customers based on the total sales amount they ha
 
 Write a SQL query to find the top 5 customers by total sales amount in the year 2023.
 
-N.B: All the table schema and data input are in sql file and all the scenarios and problem was created by ChatGPT
+
+##N.B: All the table schema and data input are in sql file and all the scenarios and problem was created by ChatGPT
 
 
